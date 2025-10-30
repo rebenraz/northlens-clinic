@@ -8,11 +8,12 @@
        {
            "src": "/(.*)",
            "dest": "/api/index.php"
-       }
+       },
       {
            "src": "/header(.*)",
            "dest": "/api/index.php"
       }
    ]
 }
+
 
