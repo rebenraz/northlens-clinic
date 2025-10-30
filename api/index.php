@@ -16,7 +16,7 @@
 <body class="text-gray-800 bg-slate-50">
 
   <!-- Top Navbar -->
-  <?php include '/header/header.php'; ?>
+  <?php include 'header/header.php'; ?>
 
   <?php
     if (isset($_SESSION['user_id']) && isset($_SESSION['role']) && $_SESSION['role'] == 'admin') {
